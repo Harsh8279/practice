@@ -3,9 +3,11 @@
 using namespace std;
 
 int main(){
-    string my_color;
-    printf("\nEnter your favourite color : ");
-    getline(cin,my_color);
-    cout<<"Hey! "<<my_color<<" is my favourite too..";
+    string first_name, last_name;
+    printf("\nEnter first_name : ");
+    getline(cin,first_name);
+    printf("\nEnter last name : ");
+    getline(cin,last_name);
+    cout<<"Hey! "<<first_name<<" "<<last_name;
     return 0;
 }
